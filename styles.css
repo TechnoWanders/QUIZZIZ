@@ -1,0 +1,86 @@
+*{
+box-sizing: border-box;
+}
+
+body{
+margin:0;
+}
+
+.header{
+width:100%
+height:10%;
+background-color: black;
+color: white;
+padding:10px;
+text-align:center;
+font-weight: bold;
+}
+
+.timer{
+width:10%;
+height:10%;
+margin-left:68%;
+margin-top:2%;
+background-color: #ffffcc;
+color:black;
+font-size:20px;
+padding:10px;
+text-align:center;
+border:2px solid grey;
+}
+
+.starter{
+margin-left:20%;
+margin-top:2%;
+}
+
+.container{
+width:60%;
+height:40%;
+background-color: rgb(255, 255, 211);
+border: 2px solid grey;
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+.container .questionbox{
+margin-left:5%;
+margin-right:5%;
+}
+
+.option-button{
+display: block;
+margin-left:5%;
+margin-bottom:2%;
+}
+
+label{
+display: block;
+margin-left:5%;
+margin-bottom:2%;
+}
+
+.buttonclass{
+display:flex;
+position:absolute;
+margin-left:70%;
+transform: translate(-50%, -50%);
+}
+
+.submitbut{
+text-algin:center;
+width:3.5rem;
+height:1.5rem;
+padding: 2px;
+margin-left:10%;
+padding:2px 5px;
+box-sizing: border-box;
+background-color:grey;
+}
+
+.submitbut:hover{
+background-color:green;
+color: white;
+}
